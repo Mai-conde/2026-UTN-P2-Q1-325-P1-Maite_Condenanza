@@ -35,8 +35,8 @@ public class GestorTurismo {
             if (v.getPatente().equalsIgnoreCase(vehiculo1.getPatente())) {
                 throw new VehiculoDuplicadoException("Ya existe un vehiculo con esas caracteristicas");
             }
-        
-        } 
+        }
+            
         vehiculos.add(vehiculo1);
         System.out.println("Vehiculo agregado correctamente");
     }

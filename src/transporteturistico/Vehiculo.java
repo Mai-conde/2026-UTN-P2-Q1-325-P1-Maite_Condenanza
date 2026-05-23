@@ -36,7 +36,6 @@ public abstract class Vehiculo implements Comparable<Vehiculo>  {
             return resultadoAnio;
         }
 
-        // 2. Si los años empatan (resultadoAño == 0), desempatamos por Tripulación (Mayor a menor)
         return Integer.compare(v.capacidadPasajeros, this.capacidadPasajeros);
     }
     
